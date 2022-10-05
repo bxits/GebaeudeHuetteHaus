@@ -1,0 +1,37 @@
+﻿
+Folgendes System ist zu implementieren:
+
+Es sollen die Energiekosten und die Miete für Wohngebäude berechnet werden. 
+Später sollen weitere Gebäude hinzu kommen, die ebenfalls individuell berechnet werden können.
+
+Dabei gibt es Gemeinsamkeiten für alle Gebäude bei der Berechnung der Miete:
+-> Die Mietkosten richten sich nach der Grundfläche und der Miete pro Quardatmeter.
+
+Die Energiekosten werden unterschiedliche berechnet. Die Software soll allerdings die Energiekosten
+für alle Gebäudetypen in einer Schleife berechnen können.
+
+Zusätzlich gilt folgendes für die unterschiedlichen Gebäudetypen:
+
+-> Eine Ferienhütte ist meistens schlecht isoliert. Hier müssen die Energiekosten um den Faktor 2,5 erhöht 
+werden. Ferner wird aber nur der prozentuale Anteil der Belegung angerechnet.
+
+-> Bei Wohnhäusern hängen die Energiekosten an der Anzahl der Bewohner. Hier gilt, 
+pro Bewohner erhöhen sich die Kosten um 3%. Dies wird auf die Grundenergiekosten aufgeschlagen. 
+Die Dämmungsstärke wirkt sich hingegen positiv auf die Energiekosten aus.
+
+-> Bei der Ferienhütte wird von der Miete nur der prozentuale BelegungsGrad angerechnet.
+-> Beim Wohnhaus wird zu den Mietkosten noch eine Umlage (122,34€) pro Bewohner aufgeschlagen.
+
+
+Gehen Sie von folgenden Grundkosten aus:
+- 10€ pro Jahr und pro m² für Energiekosten 
+- Grundmiete 12€ pro Monat und pro Quadratmeter.
+
+Ihre Aufgabe nach dem Video-Tutorial:
+1)  Debuggen Sie das Programm und vollziehen Sie die Verwendung der virtuellen und abstrakten Methoden nach.
+
+2) Erweitern Sie das UML-Diagramm um einen Bungalow und ein Ladengeschäft. Erstellen Sie selber die speziellen Regeln für Miete und Energiekosten.
+
+3) Erweitern Sie das Programm um die neuen Gebäude.
+
+4) Schreiben Sie ein Demo-Programm. -> main-Methode.
